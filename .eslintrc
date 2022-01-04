@@ -1,0 +1,19 @@
+{
+    "extends": ["airbnb", "airbnb-typescript", "prettier"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "import/prefer-default-export": ["off"],
+        "class-methods-use-this": ["off"]
+        // "object-curly-newline": [
+        //     "error",
+        //     {
+        //         "ObjectExpression": "always",
+        //         "ObjectPattern": { "multiline": true },
+        //         "ImportDeclaration": "never",
+        //         "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+        //     }
+        // ]
+    }
+}
